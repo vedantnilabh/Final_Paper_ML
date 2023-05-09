@@ -79,7 +79,7 @@ filter_index = int(sys.argv[2])
 print("Argument 1:", layer_index)
 print("Argument 2:", filter_index)
 
-file_name = "layer_" + str(layer_index) + "_filter_" + str(filter_index) + ".png"
+file_name = "5th_best_layer_" + str(layer_index) + "_filter_" + str(filter_index) + ".png"
 
 img_output = generate_pattern(layer_index, filter_index)
 img_output = (img_output * 127.5) + 127.5
