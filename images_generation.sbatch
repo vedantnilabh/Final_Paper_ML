@@ -5,7 +5,7 @@
 #SBATCH -c 10              # Number of cores
 #SBATCH --mem=64G          # Memory limit
 #SBATCH -G 1
-#SBATCH --array=0-28        # Number of jobs to run
+#SBATCH --array=0-5        # Number of jobs to run
 
 # Read in the arguments from a file
 ARGS=($(cat args.txt))
